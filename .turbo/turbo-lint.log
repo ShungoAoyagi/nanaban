@@ -1,0 +1,4 @@
+warning ../../../package.json: No license field
+$ next lint
+info  - Loaded env from /Users/aoyagishungo/Desktop/Yondemy/nanaban/.env
+✔ No ESLint warnings or errors

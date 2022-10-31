@@ -1,0 +1,32 @@
+warning ../../../package.json: No license field
+$ next build
+info  - Loaded env from /Users/aoyagishungo/Desktop/Yondemy/nanaban/.env
+info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+info  - Compiled successfully
+info  - Collecting page data...
+info  - Generating static pages (0/6)
+info  - Generating static pages (1/6)
+info  - Generating static pages (2/6)
+info  - Generating static pages (4/6)
+info  - Generating static pages (6/6)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ○ / (451 ms)                             3.53 kB         109 kB
+├   /_app                                  0 B             105 kB
+├ ○ /404                                   181 B           105 kB
+├ λ /api/auth/[...nextauth]                0 B             105 kB
+├ λ /api/examples                          0 B             105 kB
+├ λ /api/restricted                        0 B             105 kB
+└ λ /api/trpc/[trpc]                       0 B             105 kB
++ First Load JS shared by all              107 kB
+  ├ chunks/framework-3b5a00d5d7e8d93b.js   45.4 kB
+  ├ chunks/main-2b5cf5964c9408ce.js        26.5 kB
+  ├ chunks/pages/_app-86765457dd8ced9c.js  32.4 kB
+  ├ chunks/webpack-8fa1640cc84ba8fe.js     750 B
+  └ css/2bda21133fcb1447.css               2.32 kB
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
