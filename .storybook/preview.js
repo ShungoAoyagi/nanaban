@@ -1,3 +1,10 @@
+import { SessionProvider } from "next-auth/react";
+import "../src/styles/globals.css";
+
+export const decorators = [
+  (storyFn) => <SessionProvider>{storyFn()}</SessionProvider>,
+];
+
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   backgrounds: {
